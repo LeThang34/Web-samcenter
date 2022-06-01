@@ -1,8 +1,7 @@
-//T
+//Tạo biến truy cập đến class rồi xử lý
 
 let btnMoblie = document.querySelector('.btn_mb')
 let btnTablet = document.querySelector('.btn_mtb')
-console.log(btnTablet)
 let btnW = document.querySelector('.btn_dh')
 let btnHP = document.querySelector('.btn_hp')
 let btnPK = document.querySelector('.btn_pk')
@@ -21,6 +20,7 @@ btnMoblie.addEventListener('click', function () {
     lst_pk.classList.remove('active')
 
 });
+
 
 btnTablet.addEventListener('click', function () {
     lst_mb.classList.remove('active')
@@ -52,4 +52,10 @@ btnPK.addEventListener('click', function () {
    
 });
 
+//Đẩy file lên
+// git add
+// git commit
+// git push
 
+//Lấy file
+//git tull

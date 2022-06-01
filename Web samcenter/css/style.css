@@ -1,114 +1,179 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   text-decoration: none;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
 /* CSS header */
-.main-nav{
+.main-nav {
   display: flex;
   justify-content: space-between;
 }
-.main-nav a{
+
+.main-nav a {
   color: black;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-.main-nav .logo{
-  margin-left: 20px;    
+
+.main-nav .logo {
+  margin-left: 20px;
 }
-.main-nav .menu-nav{
+
+.main-nav .menu-nav {
   text-transform: uppercase;
-  margin-right: 10px;  
+  margin-right: 10px;
   margin-top: 30px;
 }
 
-.nav-pills{
+.nav-pills {
   display: flex;
   list-style-type: none;
 }
 
-.nav-pills .nav-item{
+.nav-pills .nav-item {
   margin: 0 15px;
 }
-.main-nav .phone-number{
-  margin-top:  -5px;
+
+.main-nav .phone-number {
+  margin-top: -5px;
   background-color: #000;
   border-radius: 5px;
 }
 
-.main-nav  .phone-number a{
+.main-nav .phone-number a {
   color: #fff;
   text-align: center
 }
 
-.nav-tabs{
+.nav-tabs {
   display: flex;
   justify-content: right;
 }
-.nav-tab{
+
+.nav-tab {
   margin: 0 20px;
-  padding: 0 0 8px 0 ;
+  padding: 0 0 8px 0;
   font-size: 20px;
 }
 
-.nav-tab:hover{
+.nav-tab:hover {
   border-bottom: 2px solid black;
   cursor: pointer;
 }
 
 /* Nav list  */
-.list_samsung{
+.list_samsung {
   margin-top: 10px;
 }
-.list_samsung .content_list{
+
+.list_samsung .content_list {
   display: flex;
   background-color: #f6f1f1;
   margin: 0 52px;
   border-radius: 12px;
 }
 
-.content_list .list_items{
+.content_list .list_items {
   display: flex;
-  margin:5px 20px;
+  margin: 5px 20px;
 
 }
 
-.list_items img:hover{
+.list_items img:hover {
   cursor: pointer;
 }
 
-.text_list1 a{
+.text_list1 a {
   text-decoration: none;
   color: #000;
   font-weight: 650;
 }
 
-.text_list1 a:hover{
+.text_list1 a:hover {
   color: #000;
+  text-decoration: none;
+
 }
 
-.text_list2 p{
+.text_list2 p {
   font-size: 12px;
   line-height: 16px;
 }
 
-.text_list1:hover, 
+.text_list1:hover,
 .text_list2:hover {
- cursor: context-menu;
+  cursor: context-menu;
 }
 
-.content_list{
+.content_list {
   display: none !important;
 }
+
 .active {
   display: flex !important;
+}
+
+.carousel-indicators .active {
+
+  background-color: #000 !important;
+}
+
+/* Content */
+/* footer */
+.news {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.news2 {
+  font-size: 15.5px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+
+/* .email_user {
+  margin-left: 24%;
+  font-size: 16px;
+  height:60px;
+} */
+
+.email_user {
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.email_test {
+  width: 655px;
+  height: 48px;
+}
+
+.ip_email {
+  /* width: 80%; */
+  max-width: 100%;
+  border: 1px solid #818a91;
+  background-color: transparent;
+  color: #373a3c;
+  vertical-align: middle;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.button_dk{
+  width: 327px;
+}
+
+.btn_dk {
+  /* width: 240%; */
+  background-color: #000 !important;
 }
