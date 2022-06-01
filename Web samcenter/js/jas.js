@@ -59,3 +59,29 @@ btnPK.addEventListener('click', function () {
 
 //Lấy file
 //git tull
+
+//reponsive footer
+let thongTin1 = document.querySelector('.tt1')
+let thongTin2 = document.querySelector('.tt2')
+let thongTin3 = document.querySelector('.tt3')
+let listNew1 = document.querySelector('.lst_rp1')
+let listNew2 = document.querySelector('.lst_rp2')
+let listNew3 = document.querySelector('.lst_rp3')
+
+thongTin1.addEventListener('click', function(){
+    listNew1.classList.add('active')
+    listNew2.classList.remove('active')
+    listNew3.classList.remove('active')
+})
+
+thongTin2.addEventListener('click', function(){
+    listNew2.classList.add('active')
+    listNew1.classList.remove('active')
+    listNew3.classList.remove('active')
+})
+
+thongTin3.addEventListener('click', function(){
+    listNew3.classList.add('active')
+    listNew2.classList.remove('active')
+    listNew1.classList.remove('active')
+})

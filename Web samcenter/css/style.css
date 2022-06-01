@@ -141,14 +141,7 @@ html {
   color: #7a7a7a;
 }
 
-/* .email_user {
-  margin-left: 24%;
-  font-size: 16px;
-  height:60px;
-} */
-
 .email_user {
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -158,7 +151,6 @@ html {
 }
 
 .ip_email {
-  /* width: 80%; */
   max-width: 100%;
   border: 1px solid #818a91;
   background-color: transparent;
@@ -169,11 +161,55 @@ html {
   flex-grow: 1;
 }
 
-.button_dk{
+.button_dk {
   width: 327px;
 }
 
 .btn_dk {
-  /* width: 240%; */
   background-color: #000 !important;
 }
+
+/* footer */
+
+.more_samcenter {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.more_samcenter p,
+.more_samcenter a,
+.more_samcenter li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: #1D1D1F;
+  line-height: 36px;
+}
+
+.caption{
+  margin-left: 20px;
+}
+
+.thong_tin{
+  flex:1.8;
+  overflow: hidden;
+}
+.mo_ta {
+  margin-left: 4%;
+  flex: 2;
+}
+
+ .widget-container{
+  display: block;
+  width: 40%;
+  margin:8% 0 0 4%;
+  column-gap: 0px;
+  text-align: left;
+  font-family: "SamsungOne", Sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+ }
+ .widget-container:hover {
+  cursor: default;
+ }
